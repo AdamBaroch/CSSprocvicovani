@@ -1,0 +1,12 @@
+a {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin: 20px;
+}
