@@ -1,12 +1,25 @@
+* {
+  margin: 0;
+}
 a {
   font-size: 30px;
 }
 
 ul {
   list-style-type: none;
+  background-color: black;
+  overflow: hidden;
 }
 
 li {
   float: left;
-  margin: 20px;
+  padding: 20px;
+}
+
+li:hover {
+  background-color: rgb(214, 205, 205);
+}
+
+.dropdown-content {
+  display: none;
 }
